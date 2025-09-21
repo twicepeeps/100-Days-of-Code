@@ -20,7 +20,7 @@ int main() {
     else
         amount = 50 * 0.50 + 100 * 0.75 + 100 * 1.20 + (units - 250) * 1.50;
 
-    total = amount + (amount * 0.20);  // adding 20% surcharge
+    total = amount + (amount * 0.20);  
 
     printf("Electricity Bill = Rs. %.2f\n", total);
 
